@@ -1,0 +1,4 @@
+# Place referee
+
+jc press 11 mvo RoboCup.referee 0 -3350 25 0 0 -90 # hide, Shift+Ctrl+K
+jc press 12 mvo RoboCup.referee 0 -3350 25 0 0 90 # initialToReady, Shift+Ctrl+L

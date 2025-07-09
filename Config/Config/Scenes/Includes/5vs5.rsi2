@@ -1,0 +1,72 @@
+<Simulation>
+
+  <Compound name="robots">
+    <!-- Team 1 Robots -->
+    <Body ref="Nao" name="robot1">
+      <Translation x="4" y="-3" z="320mm"/>
+      <Rotation z="-90degree"/>
+      <Set name="NaoColor" value="purple"/>
+    </Body>
+    <Body ref="Nao" name="robot2">
+      <Translation x="3" y="-3" z="320mm"/>
+      <Rotation z="-90degree"/>
+      <Set name="NaoColor" value="black"/>
+    </Body>
+    <Body ref="Nao" name="robot3">
+      <Translation x="2" y="-3" z="320mm"/>
+      <Rotation z="-90degree"/>
+      <Set name="NaoColor" value="black"/>
+    </Body>
+    <Body ref="Nao" name="robot4">
+      <Translation x="4" y="-1" z="320mm"/>
+      <Rotation z="-90degree"/>
+      <Set name="NaoColor" value="black"/>
+    </Body>
+    <Body ref="Nao" name="robot5">
+      <Translation x="3" y="-1" z="320mm"/>
+      <Rotation z="-90degree"/>
+      <Set name="NaoColor" value="black"/>
+    </Body>
+
+    <!-- Team 2 Robots -->
+    <Body ref="Nao" name="robot6">
+      <Translation x="-4" y="3" z="320mm"/>
+      <Rotation z="90degree"/>
+      <Set name="NaoColor" value="red"/>
+    </Body>
+    <Body ref="Nao" name="robot7">
+      <Translation x="-3" y="3" z="320mm"/>
+      <Rotation z="90degree"/>
+      <Set name="NaoColor" value="red"/>
+    </Body>
+    <Body ref="Nao" name="robot8">
+      <Translation x="-2" y="3" z="320mm"/>
+      <Rotation z="90degree"/>
+      <Set name="NaoColor" value="red"/>
+    </Body>
+    <Body ref="Nao" name="robot9">
+      <Translation x="-4" y="1" z="320mm"/>
+      <Rotation z="90degree"/>
+      <Set name="NaoColor" value="red"/>
+    </Body>
+    <Body ref="Nao" name="robot10">
+      <Translation x="-3" y="1" z="320mm"/>
+      <Rotation z="90degree"/>
+      <Set name="NaoColor" value="red"/>
+    </Body>
+  </Compound>
+
+  <Compound name="teams">
+    <Compound name="B-Human">
+      <Compound name="5"/>
+      <Compound name="black"/>
+      <Compound name="purple"/>
+    </Compound>
+    <Compound name="B-Team">
+      <Compound name="70"/>
+      <Compound name="red"/>
+      <Compound name="blue"/>
+    </Compound>
+  </Compound>
+
+</Simulation>
